@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD mediaPresentationDuration="PT10.010000228881836S" type="static" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" nomalabVersion="1">
+   <Period id="0">
+      <AdaptationSet label="subtitle.vtt" contentType="text" id="1">
+         <Representation mimeType="text/vtt" bandwidth="256" id="1">
+            <BaseURL>subtitle.vtt</BaseURL>
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet label="video_dashinit" par="5:3" frameRate="30000/1001" height="1150" width="1920" contentType="video" id="0" subsegmentAlignment="true">
+         <Representation sar="1:1" mimeType="video/mp4" codecs="avc1.640032" bandwidth="907712" id="0">
+            <BaseURL>tenseconds.mp4</BaseURL>
+            <SegmentBase timescale="30000" indexRange="869-924">
+               <Initialization range="0-868" />
+            </SegmentBase>
+         </Representation>
+      </AdaptationSet>
+   </Period>
+</MPD>

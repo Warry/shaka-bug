@@ -1,0 +1,22 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.000 line:0
+<i>Text line 0</i>
+
+2
+00:00:01.000 --> 00:00:02.000 line:1
+<i>Text line 1</i>
+
+3
+00:00:02.000 --> 00:00:03.000 line:0%
+<i>Text at 0%</i>
+
+4
+00:00:03.000 --> 00:00:04.000 line:1%
+<i>Text at 1%</i>
+
+5
+00:00:04.000 --> 00:00:05.000 line:0 position:20% size:60% align:start
+<i>Text with position:20% size:60% align:start</i>
+
